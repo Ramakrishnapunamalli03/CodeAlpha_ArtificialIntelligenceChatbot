@@ -1,18 +1,26 @@
-## Getting Started
+# 🤖 CodeAlpha_ArtificialIntelligenceChatbot
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is a Java-based AI chatbot created for the **CodeAlpha Java Internship Program**. It features a GUI built with **Swing**, a rule-based NLP engine, and the ability to learn from a training file.
 
-## Folder Structure
+## 💡 Features
 
-The workspace contains two folders by default, where:
+- 🧠 Rule-based NLP (keyword matching)
+- 🎯 Trained using `knowledge.txt`
+- 💬 Real-time GUI interaction
+- 💾 Chat logs saved automatically
+- 🔁 "Clear Chat" button
+- 🎭 Random fallback responses
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🚀 How to Run
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```bash
+# Compile
+javac -d bin src/ChatBotTrainer.java src/ChatBotGUI.java
 
-## Dependency Management
+# Run
+java -cp bin ChatBotGUI
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+# 🎓 About
+Created by P Rama Krishna as part of the CodeAlpha Internship
